@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Growth App</title>
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="#">
+                                <i class="fas fa-user"></i>Log In
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- hamburger button -->
+                <button id="hamburger-button" class="hamburger-button">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </button>
+                <div class="mobile-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="#">
+                                <i class="fas fa-user"></i>Log In
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-heading text-xxl">
+                        A powerful solution to grow your startup fast!
+                    </h1>
+                    <p class="hero-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Totam assumenda alias ipsam.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="#" class="btn">
+                            <i class="fas fa-laptop"></i>
+                            Book a demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- video section -->
+
+        <section class="video bg-black">
+            <div class="container-sm">
+                <h2 class="video-heading text-xl text-center">
+                    See how it works and get started and get started in less
+                    than 2 minutes.
+                </h2>
+                <div class="video-content">
+                    <a href="#">
+                        <img
+                            class="video-preview"
+                            src="images/video-preview.png"
+                            alt="video"
+                        />
+                    </a>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials -->
+        <section class="testimonials bg-dark">
+            <div class="container">
+                <h3 class="testimonials-heading text-xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt qui esse fugit blanditiis libero
+                </h3>
+                <div class="testimonials-grid">
+                    <div class="card">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Assumenda numquam dolorem delectus unde quia
+                            optio! Aliquid, iusto.
+                        </p>
+                        <p>Katherine Smith</p>
+                        <p>Capodopera</p>
+                    </div>
+                    <div class="card">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Assumenda numquam dolorem delectus unde quia
+                            optio! Aliquid, iusto.
+                        </p>
+                        <p>Katherine Smith</p>
+                        <p>Capodopera</p>
+                    </div>
+                    <div class="card">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Assumenda numquam dolorem delectus unde quia
+                            optio! Aliquid, iusto.
+                        </p>
+                        <p>Katherine Smith</p>
+                        <p>Capodopera</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing -->
+
+        <section class="pricing">
+            <div class="container-sm">
+                <h3 class="pricing-heading text-xl text-center">Pricing</h3>
+                <p class="pricing-subheading text-medium text-center">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aut quas explicabo enim.
+                </p>
+                <div class="pricing-grid">
+                    <!-- pricing card 1 -->
+                    <div class="card bg-light">
+                        <div class="pricing-card-header">
+                            <h4 class="pricing-heading text-xl">Simple</h4>
+                            <p class="pricing-card-subheading">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Voluptas sint unde provident!
+                            </p>
+                            <p class="pricing-card-price">
+                                <span class="text-xl">Free</span> *No credit
+                                card needed.
+                            </p>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-primary btn-block"
+                                >Get Started</a
+                            >
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="card bg-black">
+                        <div class="pricing-card-header">
+                            <h4 class="pricing-heading text-xl">Simple</h4>
+                            <p class="pricing-card-subheading">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Voluptas sint unde provident!
+                            </p>
+                            <p class="pricing-card-price">
+                                <span class="text-xl">$49</span> /month
+                            </p>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>Real-time
+                                    monitoring
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-primary btn-block"
+                                >Get Started</a
+                            >
+                        </div>
+                    </div>
+
+                    <p class="pricing-footer text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq -->
+
+        <section class="faq bg-light">
+            <div class="container-sm">
+                <h3 class="text-xl text-center">Frequently Asked Questions</h3>
+                <ul class="faq-menu">
+                    <li class="active">All</li>
+                    <li>Getting Started</li>
+                    <li>Pricing</li>
+                </ul>
+                <div class="faq-content">
+                    <div class="faq-group">
+                        <div class="faq-group-header">
+                            <h4 class="text-md">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Totam, laboriosam.
+                            </h4>
+                            <i class="fas fa-minus"></i>
+                        </div>
+                        <div class="faq-group-body open">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi atque eum quaerat accusantium iste!
+                        </div>
+                    </div>
+                    <div class="faq-group">
+                        <div class="faq-group-header">
+                            <h4 class="text-md">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Totam, laboriosam.
+                            </h4>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-group-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi atque eum quaerat accusantium iste!
+                        </div>
+                    </div>
+                    <div class="faq-group">
+                        <div class="faq-group-header">
+                            <h4 class="text-md">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Totam, laboriosam.
+                            </h4>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-group-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi atque eum quaerat accusantium iste!
+                        </div>
+                    </div>
+                    <div class="faq-group">
+                        <div class="faq-group-header">
+                            <h4 class="text-md">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Totam, laboriosam.
+                            </h4>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-group-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi atque eum quaerat accusantium iste!
+                        </div>
+                    </div>
+                    <div class="faq-group">
+                        <div class="faq-group-header">
+                            <h4 class="text-md">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Totam, laboriosam.
+                            </h4>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="faq-group-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Animi atque eum quaerat accusantium iste!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="footer bg-black">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <a href="index.html">
+                            <img src="images/logo-white.png" alt="logo" />
+                        </a>
+                        <div class="card">
+                            <h4>Subscribe to newsletter</h4>
+                            <p class="text-sm">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quaerat, rem!
+                            </p>
+                            <form action="">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="enter email"
+                                />
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary btn-block"
+                                >
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div>
+                        <h4>Company</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Test</a>
+                            </li>
+                            <li>
+                                <a href="#">Test</a>
+                            </li>
+                            <li>
+                                <a href="#">Test</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Another</a></li>
+                            <li><a href="#">Another</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>contact</h4>
+                        <ul>
+                            <li><a href="#">Hello@growthapp.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
